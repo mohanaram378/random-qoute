@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.quote-box{
+  background-color:white;
+  max-width: 40rem;
+  margin: auto;
+  border-radius: 100px;
+  padding: 3rem;
+}
+.text{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+.bt{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.social{
+  outline: none;
+}
+.link{
+ margin-right: 0.5rem;
+ border: none;
+ color: #fff;
+ font-size: 1.5rem;
+ padding: 0.3rem 0.5rem;
+ cursor: pointer;
+ border-radius: 5px;
+}
+.link > a{
+  color:white;
+}
+
+.link:hover{
+  opacity: 0.5;
+}
+.new-quote{
+  margin-right: 0.5rem;
+  border: none;
+  color:white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+.new-quote:hover{
+  opacity: 0.6;
+}
+.title
+{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+.footer
+{
+  text-align: center;
+}
